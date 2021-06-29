@@ -1,0 +1,42 @@
+// variable declaration
+$header-color1: #cedd49;
+$header-color2: #ccadad;
+$header-color3: #e01414;
+
+// browser reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: $header-color1;
+}
+main {
+  background-color: $header-color2;
+}
+footer {
+  background-color: $header-color3;
+}
+
+nav {
+  margin-top: 10px;
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      margin: 5px 15px;
+      a {
+        text-decoration: none;
+        color: white;
+
+        padding: 5px;
+        transition: 0.4s;
+        border-radius: 10px;
+      }
+      a:hover {
+        background-color: $header-color3;
+      }
+    }
+  }
+}
