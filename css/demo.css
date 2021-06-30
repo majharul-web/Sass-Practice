@@ -14,7 +14,7 @@ main {
 }
 
 footer {
-  background-color: #e01414;
+  background-color: #14e051;
 }
 
 nav {
@@ -40,6 +40,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #e01414;
+  background-color: red;
+}
+
+h4 {
+  background-color: red;
 }
 /*# sourceMappingURL=demo.css.map */

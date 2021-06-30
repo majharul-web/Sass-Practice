@@ -1,7 +1,7 @@
-// variable declaration
+@import "ss"; // variable declaration
 $header-color1: #cedd49;
 $header-color2: #ccadad;
-$header-color3: #e01414;
+$header-color3: #14e051;
 
 // browser reset
 * {
@@ -35,8 +35,12 @@ nav {
         border-radius: 10px;
       }
       a:hover {
-        background-color: $header-color3;
+        background-color: red;
       }
     }
   }
+}
+
+h4 {
+  background-color: $bg-collor;
 }
